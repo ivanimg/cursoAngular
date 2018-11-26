@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let categ of listado">
+    <h2>{{categ.id}} {{categ.nombre}} </h2><input type="button" value="Ver mas Detalles" (click)="verDetalles(categ.id)">
+  </li>
+</ul>
